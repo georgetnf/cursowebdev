@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chalé Hotel</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<!--Container-->
+	<div id="container">
+		<!--Topo-->
+		<div id="topo">
+
+			<!--Logo-->
+			<div id="arealogo">
+				<h1 class="logo">
+					<a href="index.html">Chalé Hotel</a>
+				</h1>
+			</div><!--FimLogo-->
+
+			<!--Menu-->
+			<div id="menu">
+				
+				<!--ConteudoMenu-->
+				<div id="conteudomenu">
+					
+					<!--MenuLocais-->
+					<div id="menulocais">
+						
+						<span class="locais">Rio de Janeiro - São Paulo - Belo Horizonte </span>
+						<a class="reserva" href="">Reservar</a>
+						<!--Limpar o fluxo float da div
+						Sem esse código a linha abaixo das cidades fica zoada!!
+						-->
+						<div style="clear: both;"></div>
+
+					</div><!--FimMenuLocais-->
+
+					<!--Menu-->
+					<div id="menu2">
+
+						<ul id="navegacao">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="historia.html">História</a>
+							</li>
+							<li>
+								<a href="imprensa.html">Imprensa</a>
+							</li>
+							<li>
+								<a href="gastronomia.html">Gastronomia</a>
+							</li>
+							<li>
+								<a href="contato.html">Contato</a>
+							</li>
+						</ul>
+
+						<img class="depoimento" src="imagens/depoimento.png">
+
+					</div><!--FimMenu-->
+
+				</div><!--FimConteudoMenu-->
+
+			</div><!--FimMenu-->
+			
+		</div><!--FimTopo-->
+
+		<!--APrincipal-->
+		<div id="areaprincipal">
+			<div class="conteudo">
+				<h2>Por favor, preencha os dados.</h2>
+				<form>
+					
+					<fieldset>
+						<legend>Detalhes de contato</legend>
+						
+						<div>
+							<label for="nome">Nome completo:</label>
+							<input type="text" name="nome" id="nome">
+						</div>
+
+						<div>
+							<label for="nome">Número de telefone celular:</label>
+							<input type="text" name="celular" id="celular">
+						</div>
+
+						<div>
+							<label for="email">Email:</label>
+							<input type="text" name="email" id="email">
+						</div>
+
+						<div>
+							<label for="url">Rede seocial(Facebook/Instagram) URL:</label>
+							<input type="text" name="url" id="url">
+						</div>
+
+					</fieldset>
+
+					<fieldset>
+						<legend>Comentários</legend>
+						<div>
+							<label for="msg">Mensagem:</label>
+							<textarea name="msg" id="msg"></textarea>
+						</div>
+					</fieldset>
+
+					<fieldset>
+						<legend>Seleciona a cidade</legend>
+						<div>
+							<label>
+								<input class="radio" type="radio" name="radio" id="rj">Rio de Janeiro
+							</label>
+						</div>
+
+						<div>
+							<label>
+								<input class="radio" type="radio" name="radio" id="bh">São Paulo
+							</label>
+						</div>
+
+						<div>
+							<label>
+								<input class="radio" type="radio" name="radio" id="sp">Belo Horizonte
+							</label>
+						</div>
+
+						<div>
+							<label for="dh">Quantos dia vai se hospedar?</label>
+							<input type="text" name="dh" id="dh">
+						</div>
+
+					</fieldset>
+
+					<div class="reservabtn">
+						<input class="submit" type="submit" value="Reservar">
+					</div>
+
+				</form>
+				
+			</div>
+
+		</div><!--FimAPrincipal-->
+
+		<!--ALateral-->
+		<div id="arealateral">
+			<div class="conteudo">
+				<table>
+					
+					<tr>
+						<th>Cidade</th>
+						<th>Hotéis</th>
+						<th class="numero">Diária</th>
+					</tr>
+
+					<tr>
+						<td>Rio de Janeiro</td>
+						<td>Hotel Master</td>
+						<td class="numero">R$ 2.000</td>
+					</tr>
+
+					<tr>
+						<td>Belo Horizonte</td>
+						<td>Hotel Master</td>
+						<td class="numero">R$ 500</td>
+					</tr>
+
+					<tr>
+						<td>São Paulo</td>
+						<td>Hotel Master</td>
+						<td class="numero">R$ 1.000</td>
+					</tr>
+
+				</table>
+
+				<div class="conteudo2">
+					<p>
+						Selecione seu hotel e preencha os dados a esquerda para reservar, nossa equipe vai entrar em contato em breve!
+					</p>
+				</div>
+
+			</div>
+		</div><!--ALateral-->
+
+		<!--Rodape-->
+		<div id="rodape">
+			<span>
+				&copy; Copyright 2000-2023 Chalé Hotel, desenvolvido por George Tunes Filho
+			</span>
+		</div><!--FimRodape-->
+
+	</div><!--FimContainer-->
+
+</body>
+</html>

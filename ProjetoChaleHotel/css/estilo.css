@@ -1,0 +1,281 @@
+/*estrutura*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: white url(../imagens/bg.png);
+	margin: 15px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+h2{
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+/*___________________________________________________________________________*/
+/*Area superior, topo do site*/
+#container{
+	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+}
+#topo{
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+	position: relative;
+}
+#arealogo{
+	background: url(../imagens/topo-imagem-principal2.png) no-repeat;
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*background do logo fica um pouco abaixo do background do menu*/
+	z-index: 1;
+}
+/*links dentro do logo*/
+.logo a{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	/*fica acima da area de menu e de logo*/
+	z-index: 3;
+	background: url(../imagens/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+	/*texto "chalé hotel" é escondido da pagina*/
+	text-indent: -9000px;
+}
+#menu{
+	background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+	width: 450px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	/*background do menu fica um pouco acima do background do logo*/
+	z-index: 2;
+}
+/*Conteudo do menu*/
+#conteudomenu{
+	margin-left: 90px;
+	margin-right: 15px;
+	padding-top: 15px;
+}
+#menulocais{
+	border-bottom: 1px solid #b5ab56;
+	border-top: 1px solid #b5ab56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.7em;
+	color: #8b8448;
+}
+/*Locais, cidades do menu*/
+#menulocais .locais{
+	float: left;
+	/*centralizar*/
+	line-height: 2.1em;
+}
+/*Link de reserva*/
+a.reserva{
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+	float: right;
+}
+/*_________________________________________________________________*/
+/*Barra de navegação vertical*/
+#menu2{
+	margin-top: 15px;
+}
+.depoimento{
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+/*Seleciona ul, pega id navegacao
+é sem espaços entre "ul e #" mesmo*/
+ul#navegacao{
+	float: left;
+}
+/*Seleciona ul, pega id navegacao e seleciona a*/
+ul#navegacao a{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	/*espaãmento entre as linhas*/
+	line-height: 30px;
+}
+/*Estado do link qdo o mouse estiver por cima*/
+ul#navegacao a:hover{
+	background: #fdf6be;
+}
+/*_________________________________________________________________*/
+/*Area de conteudos*/
+#areaprincipal{
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png)top left repeat-x;
+	padding: 15px 0px;
+}
+#arealateral{
+	float: right;
+	width: 50%;
+	background: url(../imagens/bg-area-lateral.png)top left repeat-x;
+	padding: 20px 0px;
+}
+.conteudo{
+	margin: 0 auto;
+	width: 90%;
+
+}
+/*itens de lista do id beneficios*/
+#beneficios li{
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+/*Paragrafos*/
+#beneficios li a p{
+	font-size: 0.8em;
+	color: black;
+}
+#beneficios li a h3{
+	font-size: 1.2em;
+	color: #615b2d;
+	padding: 5px 0;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+/*Id beneficios, item de lista e imagem dentro do link*/
+#beneficios li a img{
+	float: left;
+	margin-right: 8px;
+}
+#beneficios li:hover{
+	background: #f6f3d6;
+	cursor: pointer;
+}
+/*_________________________________________________________________*/
+#rodape{
+	clear: both;
+	padding: 16px;
+	background: white url(../imagens/bg-rodape.png) repeat-x top;
+	color: #7d7640;
+}
+/*_________________________________________________________________*/
+/*pagina historia*/
+.conteudo2{
+	margin: 0 auto;
+	width: 90%;
+	width: 100%;
+}
+#container2{
+	background: #ede9cc url(../imagens/container2.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+	width: 100%;
+
+}
+#container2 p{
+	margin-left: 10px;
+	padding: 10px;
+}
+#container2 h2{
+	margin-left: 10px;
+	padding: 10px;
+}
+#cardapio li{
+	margin-left: 10px;
+	padding: 10px;
+}
+#cardapio h2{
+	margin-left: 10px;
+	padding: 10px;
+}
+#container2 .conteudo2 img{
+	width: 80%;
+	min-width: 100px;
+	max-width: 1000px;
+	margin-left: 100px;
+}
+/*_________________________________________________________________*/
+/*pagina contato*/
+input{
+	width: 40;
+	height: 80%;
+	margin-bottom: 10px;
+	background-color: white;
+	padding-left: 1px;
+	border: 2px solid black;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	font-size: 20px;
+}
+input.submit{
+	border: 2px solid black;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding: 5px;
+}
+textarea{
+	border: 2px solid black;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding: 5px;
+}
+/*_________________________________________________________________*/
+/*Pagina imprensa*/
+#imprensa a{
+	color: orange;
+	font-size: 20px;
+	line-height: 5px;
+	margin-left: 20px;
+}
+#imprensa a:hover{
+	background:black;
+}
+/*_________________________________________________________________*/
+/*Pagina Reserva*/
+table{
+	width:100%;
+	border-collapse: collapse;
+
+}
+th, td{
+	border: 1px solid darkred;
+	padding: 7px;
+}
+th{
+	text-transform: uppercase;
+	border-bottom: #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+.numero{
+	text-align: right;
+}
+tr:hover{
+	background-color: cyan;
+}
+.reservabtn{
+	font-size: 20px;
+	border: 2px solid black;
+}
