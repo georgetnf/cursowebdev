@@ -1,0 +1,205 @@
+/*Formatações padrões*/
+body{
+	background: #f4f2ec url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+/*links*/
+a:link, a:active, a:visited{
+	color: #af670a;
+	text-decoration: none;
+}
+a:hover{
+	color: #227115;
+}
+h3{
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+/*______________________________________________________________________________*/
+/*Logo, menu de navegação do topo*/
+/*Link da id logo*/
+#logo a{
+	width: 248px;
+	height: 21px;
+	/*tirar o texto 'museu nacional da area de navegacao'*/
+	text-indent: -9999px;
+	display: block;
+	background:  url(../img/logo.png) no-repeat;
+}
+#logo h1{
+	float: left;
+}
+header{
+	padding: 15px 0;
+	height: 55px;
+}
+/*lista dentro da nav*/
+nav ul{
+	list-style: none;
+	margin: 20px;
+	float: right;
+}
+/*itens de lista*/
+nav ul li{
+	float: left;
+}
+/*links da lista*/
+nav ul li a:link{
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	padding-bottom: 1px solid #535858;
+}
+/*______________________________________________________________________________*/
+#container{
+	width: 1080px;
+	margin: 0 auto;
+}
+#conteudo{
+	width: 710px;
+	float: left;
+	margin-bottom: 20px;
+}
+/*configurações de conteúdo = video, mapa, exposição e história*/
+article#video{
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+article#mapa{
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+article#exposicao{
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+}
+article#historia{
+	float: left;
+	width: 310px;
+	/*37px para ficar alinhado com o mapa*/
+	margin: 15px 0 0 37px;
+}
+/*______________________________________________________________________________*/
+/*Area lateral*/
+aside{
+	width: 350px;
+	background: #ebe7dd;
+	float: right;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+
+}
+section#visita{
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+/*Galeria de fotos*/
+/*link da galeria*/
+section#galeria{
+	padding: 0 27px 0 27px;
+}
+section#galeria a{
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	/*para o fundo funcionar
+	o 17px ali é pq com 15 ele corta um pedaço da imagem
+	*/
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+}
+/*imagem*/
+section#galeria img{
+	margin-left: 2px;
+	margin-top: 3px;
+}
+/*______________________________________________________________________________*/
+/*Formulario*/
+input{
+	height: 20px;
+	background: white;
+	border: none;
+	font-size: 1em;
+	width: 80px;
+}
+input.campo{
+	border: 1px solid #ada484;
+}
+input.botao{
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+fieldset{
+	border: none;
+}
+legend{
+	display: none;
+}
+/*______________________________________________________________________________*/
+/*rodape*/
+footer{
+	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.pmg) no-repeat center top;
+	margin-top: 20px;
+}
+/*seletor de filhos
+seleciona o link dentro do paragrafo no rodape
+*/
+footer>p a{
+	/*espaço entre os links no rodape*/
+	padding: 2px 10px;
+}
+/*______________________________________________________________________________*/
+
+/*Página exposição*/
+/**/
+#textoexposicao{
+	text-align: justify;
+	margin-bottom: 20px;
+}
+#videoexp{
+	margin-bottom: 20px;
+}
+/*______________________________________________________________________________*/
+/*Págia do acervo*/
+#acervo ul{
+	margin-bottom: 20px;
+	font-size: 12px;
+	list-style: none;
+	text-align: center;
+}
+/*______________________________________________________________________________*/
+/*pagina vídeos*/
+#video2{
+	display: block;
+	margin-bottom: 20px;
+}
+/*______________________________________________________________________________*/
+/*fotos*/
+#fototab{
+	list-style: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 2px;
+	margin-top: 3px;
+}

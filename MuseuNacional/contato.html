@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Museu Nacional - Contato</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!--NormalizeCSS
+	É para versões de browsers antigos funcionarem alguns recursos do site
+	-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!--JS-->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<!--Container-->
+	<div id="container">
+		
+		<!--Topo-->
+		<header>
+			<div id="logo"><!--Logo-->
+				<h1>
+					<a href="index.html">Museu Nacional</a>
+				</h1>
+			</div><!--FimLogo-->
+
+			<!--Navegacao-->	
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="exposicao.html">Exposições</a>
+					</li>
+
+					<li>
+						<a href="pesquisa.html">Pesquisa</a>
+					</li>
+
+					<li>
+						<a href="acervo.html">Acervo</a>
+					</li>
+
+					<li>
+						<a href="videos.html">Vídeos</a>
+					</li>
+
+					<li>
+						<a href="fotos.html">Fotos</a>
+					</li>
+
+					<li>
+						<a href="contato.html">Contato</a>
+					</li>
+				</ul>
+			</nav><!--FimNavegacao-->
+
+		</header><!--FimTopo-->	
+
+		<!--Conteudos do site-->
+		<div id="principal">
+			
+			<!--Conteudo-->
+			<div id="conteudo">
+				
+				<!--Capa, imagem principal-->
+				<section id="capa">
+					<img src="img/museu.png">
+
+					<!--PostagensDoSite-->
+					<section id="postagens">
+						
+						<form>
+							<h3>Entre em contato</h3>
+							<fieldset>
+								<legend>Dados para contato</legend>
+								<label for="nome">Nome:</label>
+								<input class="campo" type="text" name="nome" id="nome" value="Nome">
+								<br><br>
+
+								<label  for="email">Email:</label>
+								<input  class="campo" type="email" name="email" id="email" value="E-mail">
+								<br><br>
+
+								<label for="assunto">Assunto</label>
+								<input class="campo" type="textarea" name="assunto" id="assunto" value="Assunto">
+								<br><br>
+
+								<label  for="number">Número</label>
+								<input class="campo" type="textarea" name="number" value="Celular/Telefone" id="n">
+								<br><br>
+
+								<input class="campo" type="submit" name="" value="Enviar">
+							</fieldset>
+						</form>
+
+					</section><!--FimPostagensDoSite-->
+				</section><!--FimCapa-->
+
+			</div><!--FimConteudo-->
+
+			<!--Lateral-->
+			<aside>
+				
+				<!--Depoimento-->
+				<section id="depoimento">
+					<img src="img/depoimento.png">
+				</section><!--FimDepoimento-->
+
+				<!--Visita-->
+				<section id="visita">
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+							<label for="data">Data</label>
+							<input class="campo" type="text" id="data" value="dd/mm/aa">
+							
+							<label for="qtd">Quantas pessoas?</label>
+							<!--Assim com 30px ele deixa os campos um do lado do outro-->
+							<input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+						</fieldset>
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+					</form>
+				</section><!--FimVisita-->
+
+				<!--GaleriaFotos-->
+				<section id="galeria">
+					<h4>Galeria de fotos</h4>
+					<a href="">
+						<img src="img/imagem1.jpg" height="93px" width="93px" alt="DescricaoIMG">
+					</a>
+					<a href="">
+						<img src="img/imagem2.jpg" height="93px" width="93px" alt="DescricaoIMG">
+					</a>
+					<a href="">
+						<img src="img/imagem3.jpg" height="93px" width="93px" alt="DescricaoIMG">
+					</a>
+					<a href="">
+						<img src="img/imagem4.jpg" height="93px" width="93px" alt="DescricaoIMG">
+					</a>
+
+				</section><!--FimGaleriaFotos-->
+
+			</aside><!--FimLateral-->
+
+			<!--Rodape-->
+			<footer>
+				<hr>
+				<p>
+					<a href="index.html">Home</a>
+					<a href="exposicao.html">Exposições</a>
+					<a href="pesquisa.html">Pesquisa</a>
+					<a href="acervo.html">Acervo</a>
+					<a href="videos.html">Vídeos</a>
+					<a href="fotos.html">Fotos</a>
+					<a href="contato.html">Contato</a>
+				</p>
+				<p>
+					2023 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+				</p>
+				&copy; desenvolvido por George Tunes Filho
+			</footer><!--FimRodape-->
+
+		</div><!--FimConteudos do site-->
+
+	</div><!--FimContainer-->
+
+</body>
+</html>
