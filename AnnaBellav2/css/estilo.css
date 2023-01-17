@@ -1,0 +1,30 @@
+body{
+	font: 20px Arial, Helvetica, sans-serif;
+}
+h1{
+	color: #828271;
+	font-size: 1.2em;
+	padding-top: 40px;
+	padding-left: 15px;
+}
+p{
+	padding-left: 15px;
+}
+footer{
+	background-color: black;
+	text-align: center;
+}
+.bg-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+#contato{
+	padding-left: 15px;
+}
+.gray-bg {
+   background-color: gray;
+}
