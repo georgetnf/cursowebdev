@@ -1,0 +1,22 @@
+#home{
+	background: #ffc107;
+	color: white;
+
+}
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.yellow-bg {
+  background-color: #ffc107;
+  padding: 1rem;
+  border: 5px solid black;
+}
+
+/*linkg do paragrafo do rodape*/
+footer p a{
+	margin: 5px 15px;
+}
+
