@@ -1,0 +1,2 @@
+A pasta PROTEGIDAapp_send_mail deve ser enviada na raiz do XAMPP.
+Pois contém arquivos protegidos.
