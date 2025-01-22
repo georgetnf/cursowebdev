@@ -1,0 +1,3 @@
+pasta app_lista_tarefas fica fora do diretorio htdocs.
+Na pasta raiz do xampp
+pasta publica no diretorio htdcos
